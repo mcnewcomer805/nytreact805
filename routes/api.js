@@ -8,6 +8,7 @@ router.post("/api/topic", function(req, res) {
     res.json(true);
   })
   .catch((err) => {
+    console.log(err.response);
     // if not, we can at least catch the error
     res.json(err);
   });
