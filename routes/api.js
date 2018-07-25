@@ -13,3 +13,5 @@ router.post("/api/topic", function(req, res) {
     res.json(err);
   });
 });
+
+module.exports = router;
